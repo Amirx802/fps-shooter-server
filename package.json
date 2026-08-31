@@ -1,15 +1,8 @@
 {
-  "name": "fps-shooter-relay",
-  "version": "1.0.0",
-  "description": "سرور رله‌ی WebSocket برای مالتی‌پلیر بازی تیراندازی",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "dependencies": {
-    "ws": "^8.16.0"
-  }
+  "name":"fps-shooter-server",
+  "version":"1.0.0",
+  "private":true,
+  "main":"server.js",
+  "scripts":{"start":"node server.js"},
+  "dependencies":{"ws":"^8.18.0"}
 }
